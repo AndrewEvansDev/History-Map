@@ -22,7 +22,7 @@ if(session){
             <Card>
             <CardHeader>
                 <CardTitle>Please sign in</CardTitle>
-                <CardDescription>Need to be auth'd to see page.</CardDescription>
+                <CardDescription>Need to be auth&apos;d to see page.</CardDescription>
             </CardHeader>
             <CardContent>
                 <div className="flex flex-col">
