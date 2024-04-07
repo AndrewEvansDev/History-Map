@@ -1,10 +1,11 @@
+// next.config.mjs
+
 const redirects = [
 {
-    source: '/',
-    destination: 'https://map.andrewevans.us/',
+    source: '/(.*)',
+    destination: 'https://map.andrewevans.us/$1',
     permanent: true,
 },
-// Add more redirect rules as needed
 ];
 
 const nextConfig = {
