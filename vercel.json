@@ -1,8 +1,0 @@
-{
-"rewrites": [
-        {
-        "source": "/(.*)",
-        "destination": "https://map.andrewevans.us/:1"
-        }
-    ]
-}
